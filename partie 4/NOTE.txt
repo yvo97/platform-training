@@ -1,0 +1,3 @@
+- https://github.com/eazytraining/agenda-service-app/tree/main
+
+- http://ghcr.io/diranetafen/conference-app:v1.0.0

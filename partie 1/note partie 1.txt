@@ -1,0 +1,18 @@
+--------------------------------------
+repository pour installer le cluster k8s avec vagrant
+--------------------------------------
+- https://github.com/eazytraining/kubernetes-certification-stack
+ - # edit vagrantfile to 4Go et 4 vcpu
+     vagrant up
+      vagrant resume pour remettre les vm en marche 
+--------------------------------------------
+pour fiare les snapshot
+----------------------------------------------
+- https://developer.hashicorp.com/vagrant/docs/cli/snapshot#snapshot-save
+-----------------------------------------------
+
+pour vendredi (ce message sera épinglé dans le chat en haut)
+1- deploiement de votre cluster
+2- capture de votre cluster fonctionnel à mettre dans le chat
+3- snapshot de vos VMs en lab-00
+4- revision des composants ingress controller, CRI, CSI et service

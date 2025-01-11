@@ -1,0 +1,66 @@
+-----------------------------------------------
+- https://github.com/crossplane-contrib/provider-aws/issues/2050
+------------------------------------
+
+--------------------------------------
+- https://marketplace.upbound.io/providers/upbound/provider-aws-elasticache/v1.4.0/resources/elasticache.aws.upbound.io/User/v1beta1
+-------------------------------------
+
+
+-----------------------------------------
+- https://github.com/crossplane-contrib/provider-kubernetes
+----------------------------------------
+
+
+---------------------------------------
+https://pozosworkspace.slack.com/archives/C06QMN0TTGE/p1716130558849129
+--------------------------------------
+
+Name:         aws-db-keyvalue
+Namespace:
+Labels:       crossplane.io/composite=aws-db-keyvalue
+API Version:  eazytraining.io/v1alpha1
+Kind:         Database
+Metadata:
+  ...
+Spec:
+  Composition Ref:
+    Name:  keyvalue.db.aws.eazytraining.io
+  Composition Selector:
+    Match Labels:
+      Kind:                   keyvalue
+      Provider:               aws
+      Type:                   dev
+  Parameters:
+    Mock Data:  false
+    Size:       small
+  Resource Refs:
+    API Version:  elasticache.aws.upbound.io/v1beta1
+    Kind:         SubnetGroup
+    Name:         aws-db-keyvalue-t82vk
+    API Version:  kubernetes.crossplane.io/v1alpha2
+    Kind:         Object
+    Name:         aws-db-keyvalue-2jddg
+    API Version:  kubernetes.crossplane.io/v1alpha2
+    Kind:         Object
+    Name:         aws-db-keyvalue-dgw9t
+    API Version:  elasticache.aws.upbound.io/v1beta1
+    Kind:         User
+    Name:         aws-db-keyvalue-wp5qr
+    API Version:  elasticache.aws.upbound.io/v1beta1
+    Kind:         Cluster
+    Name:         aws-db-keyvalue-redis
+Status:
+  Cluster:
+    Endpoint:  aws-db-keyvalue.c1eplz.0001.use1.cache.amazonaws.com
+    Port:      6379
+
+
+
+
+
+
+
+------------------------------------------------------
+- https://marketplace.upbound.io/providers/upbound/provider-aws-kafka/v1.4.0/resources/kafka.aws.upbound.io/ScramSecretAssociation/v1beta1
+-----------------------------------------------------

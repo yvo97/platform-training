@@ -1,0 +1,2 @@
+- https://bitnami.com/stack/wordpress/helm
+- https://fr.trustpilot.com/review/eazytraining.fr?utm_medium=trustbox&utm_source=Mini

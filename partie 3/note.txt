@@ -1,0 +1,7 @@
+1- publier votre chart helm sur votre github
+2- mettre en place des pipelines de type service sur chacun des repo applicatif dont vous avez reçu le code source
+
+--------------------------------------------------
+Lien vers le projet
+--------------------------------------------------
+- https://github.com/eazytraining/agenda-service-app
